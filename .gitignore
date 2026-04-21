@@ -1,0 +1,25 @@
+# ─── Backend ──────────────────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+
+# Sensitive config — DO NOT commit
+backend/src/main/resources/application.properties
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ─── Frontend ─────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ─── IDE / OS ─────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
